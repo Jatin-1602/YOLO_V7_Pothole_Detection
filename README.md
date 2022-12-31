@@ -24,3 +24,6 @@ Training Hyperparameters:
 * hyperparameter : hyp.scratch.custom.yaml
 * lr : 0.01
 * conf : 0.05
+
+## Result
+Score : 0.456830354788351
