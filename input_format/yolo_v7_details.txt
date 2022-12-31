@@ -1,0 +1,24 @@
+Each image has one txt file with a single line for each bounding box.
+The format of each row is
+
+class_id center_x center_y width height
+
+where fields are space delimited, and the coordinates are normalized from zero to one.
+
+Note: To convert to normalized xywh from pixel values,
+divide x (and width) by the image's width and
+divide y (and height) by the image's height.
+
+
+
+The `data.yaml` file contains configuration values
+used by the model to locate images and
+map class names to class_id's.
+
+data.yaml
+
+train: ../train/images
+val: ../valid/images
+
+nc: 3
+names: ['head', 'helmet', 'person']
