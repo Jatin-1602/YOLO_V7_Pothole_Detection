@@ -1,4 +1,4 @@
-# Pothole_Detection_YOLO_V7
+# YOLO_V7_Pothole_Detection
 
 ## Description
 
