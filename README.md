@@ -21,9 +21,24 @@ Training Hyperparameters:
 * batch_size : 8
 * img_size : 720 720
 * weights : yolov7-e6e_training.pt
+
 * hyperparameter : hyp.scratch.custom.yaml
 * lr : 0.01
 * conf : 0.05
 
 ## Result
 Score : 0.456830354788351
+
+## Evaluations
+**FOLD_4** <br><br>
+
+RESULT <br>
+![results](https://user-images.githubusercontent.com/77826715/210163017-ba318255-6bf6-4ab0-af7e-d2564772ff09.png)
+
+CONFUSION MATRIX <br>
+![confusion_matrix](https://user-images.githubusercontent.com/77826715/210163067-9b5f21c5-f6f4-446b-a574-4bfba94efc22.png)
+
+TRAIN_BATCH
+![train_batch](https://user-images.githubusercontent.com/77826715/210163083-98473993-5e7f-41f8-b118-3609f80f20ab.jpg)
+
+
