@@ -1,0 +1,6 @@
+names:
+- pothole
+nc: 1
+path: ../
+train: data/images/train20171_fold/
+val: data/images/val20171_fold/
