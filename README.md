@@ -23,7 +23,7 @@ Training Hyperparameters:
 * weights : yolov7-e6e_training.pt
 
 * hyperparameter : hyp.scratch.custom.yaml
-* lr : 0.01
+* lr : 0.02
 * conf : 0.05
 
 ## Result
